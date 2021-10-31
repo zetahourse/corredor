@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "omg";
+  src: url("omg.ttf");
+}
+@font-face {
+  font-family: "rr";
+  src: url("rr.ttf");
+}
+body {
+	background-color: rgb(219,231,231) ;
+}
+section {
+		top: 37vh;
+	width: 90vw;
+	position: relative;
+	text-align: center;
+	font-family: "omg";
+	font-size: 5vw;
+	margin-top: 5vh;
+	border: 1vw solid navy;
+	border-radius: 1vw;
+ box-shadow: 5px 10px #888888;
+}
+a:link,a:visited {
+	text-decoration: none;
+	color: orange;
+}
+a:hover {
+color: red;
+}
+
+section:hover {
+	animation: hov 0.5s linear;
+}
+@keyframes hov {
+	100% {
+		top: 34vh;
+		box-shadow: 10px 20px #888888;
+	}
+}
+img {
+	width: 50vw;
+	position: absolute;
+	top: -13vh;
+	left: 25vw;
+}
+a:active {
+	background-color: red;
+}
+#gana {
+	position: absolute;
+	top:5vh;
+}
+#stic {
+	width: 60vw;
+position: absolute;
+top: 10vh;
+left: -2vw;
+}
+#credits {
+  position: absolute;
+  width: 90%;
+  margin: auto;
+  bottom: -1vh;
+  margin-bottom: 20px;
+  font-family: "rr", sans-serif;
+  color: #544027;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  text-align: center;
+		z-index: 10000;
+}
+mark {
+	background-color: transparent;
+	color: #dc5f45;
+	font-size: 15px;
+	font-family: "klk",sans-serif;
+}
+
+#credits a {
+  color: #544027;
+}
+
+#credits a:hover {
+  color: #dc5f45;
+}
