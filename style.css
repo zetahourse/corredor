@@ -19,6 +19,13 @@
   font-family: "rr";
   src: url("rr.ttf");
 }
+img {
+	position: absolute;
+	width:10vw;
+	right: 3vw;
+	top: 5vw;
+	z-index: 10000;
+}
 #world {
   position: absolute;
   width: 100%;
