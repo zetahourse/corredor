@@ -155,12 +155,12 @@ img {
 #redes {
 	display: block;
 	position: absolute;
-	right: -5vw;
-	bottom: 0vh;
+	right: 10vw;
+	bottom: 47vh;
 }
 #redes a {
 	margin-top: 5vw;
 }
 #redes img {
-	width: 20vw;
+	width: 50vw;
 }
